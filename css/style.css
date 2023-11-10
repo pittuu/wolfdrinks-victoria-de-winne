@@ -372,7 +372,7 @@ ul.slider li:target {
 }
 
 /*suscripción*/
-/*404*/
+/*usuario*/
 .page_404 {
   padding: 40px 0;
   background: #fff;
@@ -409,7 +409,6 @@ ul.slider li:target {
   margin-top: -50px;
 }
 
-/*fin 404*/
 @media (max-width: 1024px) {
   .sectionprincipal {
     background-color: #041a63;
