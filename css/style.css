@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+/*header*/
 .sectionprincipal {
   background-color: #041a63;
   color: #fff;
@@ -98,6 +99,8 @@
   text-align: right;
 }
 
+/*fin del header*/
+/*bebiuas*/
 .centrado {
   width: 100%;
   text-align: center;
@@ -158,8 +161,7 @@ form {
   flex-shrink: 0;
 }
 
-input,
-textarea {
+input, textarea {
   padding: 17px 14px;
   background: rgba(246, 162, 26, 0.76);
   border: 0;
@@ -201,6 +203,8 @@ textarea {
   text-transform: uppercase;
 }
 
+/*fin de bebidas*/
+/*menu*/
 .container {
   margin: auto;
   width: 100%;
@@ -267,6 +271,7 @@ ul.slider li:target {
   border-radius: 100%;
 }
 
+/*fin menu*/
 .footer {
   background-color: #041a63;
   color: #fff;
@@ -274,6 +279,7 @@ ul.slider li:target {
   padding: 10px 0;
 }
 
+/*suscripción*/
 #tabla-precios {
   display: inline-block;
   width: 100%;
@@ -291,17 +297,7 @@ ul.slider li:target {
   box-shadow: 0px 2px 5px #ddd;
 }
 
-@media screen and (min-width: 768px) {
-  .precio-col {
-    width: 32%;
-    float: left;
-    margin-right: 2%;
-  }
-  .precio-col:last-child {
-    margin-right: 0;
-  }
-}
-/*Headers*/
+/*suscripcion*/
 .precio-col-header {
   background-color: #041a63;
   padding: 20px;
@@ -375,6 +371,7 @@ ul.slider li:target {
   transition: all 0.3s;
 }
 
+/*suscripción*/
 @media (max-width: 1024px) {
   .sectionprincipal {
     background-color: #041a63;
@@ -449,6 +446,14 @@ ul.slider li:target {
     cursor: pointer;
     text-decoration: none;
     font-size: 1rem;
+  }
+  .precio-col {
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+  }
+  .precio-col:last-child {
+    margin-right: 0;
   }
 }
 @media (max-width: 425px) {

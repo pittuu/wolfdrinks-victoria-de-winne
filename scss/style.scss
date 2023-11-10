@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*header*/
 
 .sectionprincipal {
     background-color: #041a63;
@@ -94,7 +95,9 @@
 .center {
     text-align: right;
 }
+/*fin del header*/
 
+/*bebiuas*/
 .centrado {
     width: 100%;
     text-align: center;
@@ -155,8 +158,7 @@ form {
     flex-shrink: 0;
 }
 
-input,
-textarea {
+input, textarea {
     padding: 17px 14px;
     background: rgba(246, 162, 26, 0.76);
     border: 0;
@@ -198,7 +200,9 @@ textarea {
     font-weight: 400%;
     text-transform: uppercase;
 }
+/*fin de bebidas*/
 
+/*menu*/
 .container {
     margin: auto;
     width: 100%;
@@ -264,6 +268,7 @@ ul.slider li:target {
     font-size: 20px;
     border-radius: 100%;
 }
+/*fin menu*/
 
 .footer {
     background-color: #041a63;
@@ -271,7 +276,7 @@ ul.slider li:target {
     text-align: center;
     padding: 10px 0;
 }
-
+/*suscripción*/
 #tabla-precios {
     display:inline-block;
     width:100%;
@@ -290,19 +295,9 @@ ul.slider li:target {
     box-shadow: 0px 2px 5px #ddd
    }
    
-   @media screen and (min-width:768px) {
-    .precio-col {
-    width:32%;
-    float:left;
-    margin-right:2%
-    }
-    
-    .precio-col:last-child {
-    margin-right:0
-    }
-   }
+
    
-   /*Headers*/
+   /*suscripcion*/
    
    .precio-col-header {
     background-color:#041a63;
@@ -378,6 +373,7 @@ ul.slider li:target {
     color:#dd9933;
     transition: all 0.3s
    }
+/*suscripción*/
 
 @import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Mansalva&display=swap');
@@ -470,7 +466,16 @@ ul.slider li:target {
         text-decoration: none;
         font-size: 1rem;
     }
-
+    .precio-col {
+        width:32%;
+        float:left;
+        margin-right:2%
+        }
+        
+        .precio-col:last-child {
+        margin-right:0
+        }
+       
 }
 @media(max-width:425px) {
     .sectionprincipal {
