@@ -206,7 +206,7 @@ input, textarea {
 }
 
 /*fin de bebidas*/
-/*menu*/
+/*inicio*/
 .container {
   margin: auto;
   width: 100%;
@@ -273,7 +273,7 @@ ul.slider li:target {
   border-radius: 100%;
 }
 
-/*fin menu*/
+/*fin inicio*/
 .footer {
   background-color: #041a63;
   color: #fff;
