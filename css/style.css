@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Catamaran:400,800");
 @import url("https://fonts.googleapis.com/css2?family=Mansalva&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jomhuria&family=Mansalva&display=swap");
+@import url();
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +14,7 @@
   color: #000;
   text-align: center;
   font-family: Lao Muang Khong;
-  font-size: 40px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -615,7 +616,7 @@ a.more-link {
     color: #000;
     text-align: center;
     font-family: Lao Muang Khong;
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -672,7 +673,7 @@ a.more-link {
   .sectionprincipal {
     background-color: #041a63;
     color: #fff;
-    width: 125%;
+    width: 100%;
     height: 20rem;
     flex-shrink: 0;
   }
@@ -709,7 +710,7 @@ a.more-link {
     color: #000;
     text-align: center;
     font-family: Lao Muang Khong;
-    font-size: 12px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
