@@ -672,28 +672,28 @@ a.more-link {
   .sectionprincipal {
     background-color: #041a63;
     color: #fff;
-    width: 175%;
+    width: 100%;
     height: 20rem;
     flex-shrink: 0;
   }
   .headerLogo {
-    width: 175%;
+    width: 100%;
   }
   .headerLogo a img {
     width: 25rem;
   }
   .container {
     margin: auto;
-    width: 200%;
+    width: 120%;
     padding: 10px;
   }
   ul.slider li img {
-    width: 125%;
+    width: 100%;
     height: 500px;
     object-fit: contain;
   }
   .centrado {
-    width: 200%;
+    width: 100%;
     text-align: center;
     font-size: 0.7rem;
   }
