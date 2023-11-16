@@ -688,7 +688,7 @@ a.more-link {
     padding: 10px;
   }
   ul.slider li img {
-    width: 100%;
+    width: 150%;
     height: 500px;
     object-fit: contain;
   }
