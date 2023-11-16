@@ -692,13 +692,14 @@ ul.slider li:target {
     }
 
 }
-@media(max-width:320px) {
+@media (max-width: 320px) {
     .sectionprincipal {
         background-color: #041a63;
         color: #fff;
-        width: 200%;
+        width: 100%;
         height: 20rem;
         flex-shrink: 0;
+        margin: 0 auto; /* Centrar el elemento */
     }
 
     .headerLogo {
@@ -706,48 +707,52 @@ ul.slider li:target {
     }
 
     .headerLogo a img {
-        width: 25rem;
+        width: 100%; /* Ajustar al ancho del contenedor padre */
+        max-width: 25rem; /* Limitar el ancho máximo */
     }
 
     .container {
         margin: auto;
-        width: 125%;
+        width: 100%; /* Ajustar al ancho del contenedor padre */
+        max-width: 125%; /* Limitar el ancho máximo */
         padding: 10px;
     }
 
     ul.slider li img {
-        width: 125%;
-        height: 500px;
+        width: 100%;
+        height: auto; /* Permitir que la altura se ajuste proporcionalmente */
         object-fit: contain;
     }
 
     .centrado {
-        width: 125%;
+        width: 100%;
         text-align: center;
-        font-size: .7rem;
+        font-size: 0.7rem;
     }
 
     .dropbtn {
         color: #fff;
-        padding: .3125rem .625rem;
+        padding: 0.3125rem 0.625rem;
         border: none;
         cursor: pointer;
         text-decoration: none;
         font-size: 1rem;
     }
-    .texto{
+
+    .texto {
         color: #000;
-       text-align: center;
-       font-family: Lao Muang Khong;
-       font-size: 10px;
-       font-style: normal;
-       font-weight: 400;
-       line-height: normal;
-       text-transform: uppercase;
+        text-align: center;
+        font-family: 'Lao Muang Khong';
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
     }
-    .parrafo{
+
+    .parrafo {
         color: #000;
-        font-family: Lao Muang Khong;
+        font-family: 'Lao Muang Khong';
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
