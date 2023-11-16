@@ -621,6 +621,14 @@ a.more-link {
     line-height: normal;
     text-transform: uppercase;
   }
+  .parrafo {
+    color: #000;
+    font-family: Lao Muang Khong;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 }
 @media (max-width: 425px) {
   .sectionprincipal {
@@ -706,6 +714,14 @@ a.more-link {
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
+  }
+  .parrafo {
+    color: #000;
+    font-family: Lao Muang Khong;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
 }
 

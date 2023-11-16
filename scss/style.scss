@@ -637,6 +637,15 @@ ul.slider li:target {
         line-height: normal;
         text-transform: uppercase;
     }
+    .parrafo {
+        color: #000;
+        font-family: Lao Muang Khong;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
 }
 @media(max-width:425px) {
     .sectionprincipal {
@@ -735,5 +744,13 @@ ul.slider li:target {
        font-weight: 400;
        line-height: normal;
        text-transform: uppercase;
+    }
+    .parrafo{
+        color: #000;
+        font-family: Lao Muang Khong;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 }
