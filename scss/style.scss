@@ -529,12 +529,11 @@ ul.slider li:target {
   }
 @import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Mansalva&display=swap');
-@import url();
 @media(max-width:1024px) {
     .sectionprincipal {
         background-color: #041a63;
         color: #fff;
-        width: 100%;
+        width: 200%;
         height: 20rem;
         flex-shrink: 0;
     }
