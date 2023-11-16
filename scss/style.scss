@@ -694,68 +694,68 @@ ul.slider li:target {
 }
 @media (max-width: 320px) {
     .sectionprincipal {
-        background-color: #041a63;
-        color: #fff;
-        width: 100%;
-        height: 20rem;
-        flex-shrink: 0;
-        margin: 0 auto; /* Centrar el elemento */
+      background-color: #041a63;
+      color: #fff;
+      width: 100%;
+      height: 20rem;
+      flex-shrink: 0;
+      margin: 0 auto; // Centrar el elemento
     }
-
+  
     .headerLogo {
-        width: 100%;
+      width: 100%;
     }
-
+  
     .headerLogo a img {
-        width: 100%; /* Ajustar al ancho del contenedor padre */
-        max-width: 25rem; /* Limitar el ancho máximo */
+      width: 100%; // Ajustar al ancho del contenedor padre
+      max-width: 25rem; // Limitar el ancho máximo
     }
-
+  
     .container {
-        margin: auto;
-        width: 100%; /* Ajustar al ancho del contenedor padre */
-        max-width: 125%; /* Limitar el ancho máximo */
-        padding: 10px;
+      margin: auto;
+      width: 100%; // Ajustar al ancho del contenedor padre
+      max-width: 125%; // Limitar el ancho máximo
+      padding: 10px;
     }
-
+  
     ul.slider li img {
-        width: 100%;
-        height: auto; /* Permitir que la altura se ajuste proporcionalmente */
-        object-fit: contain;
+      width: 100%;
+      height: auto; // Permitir que la altura se ajuste proporcionalmente
+      object-fit: contain;
     }
-
+  
     .centrado {
-        width: 100%;
-        text-align: center;
-        font-size: 0.7rem;
+      width: 100%;
+      text-align: center;
+      font-size: 0.7rem;
     }
-
+  
     .dropbtn {
-        color: #fff;
-        padding: 0.3125rem 0.625rem;
-        border: none;
-        cursor: pointer;
-        text-decoration: none;
-        font-size: 1rem;
+      color: #fff;
+      padding: 0.3125rem 0.625rem;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 1rem;
     }
-
+  
     .texto {
-        color: #000;
-        text-align: center;
-        font-family: 'Lao Muang Khong';
-        font-size: 10px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-transform: uppercase;
+      color: #000;
+      text-align: center;
+      font-family: 'Lao Muang Khong';
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
     }
-
+  
     .parrafo {
-        color: #000;
-        font-family: 'Lao Muang Khong';
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
+      color: #000;
+      font-family: 'Lao Muang Khong';
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }  
 }
