@@ -529,6 +529,7 @@ ul.slider li:target {
   }
 @import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Mansalva&display=swap');
+
 @media(max-width:1024px) {
     .sectionprincipal {
         background-color: #041a63;
@@ -548,7 +549,7 @@ ul.slider li:target {
 
     .container {
         margin: auto;
-        width: 100%;
+        width: 150%;
         padding: 10px;
     }
 
@@ -695,13 +696,13 @@ ul.slider li:target {
     .sectionprincipal {
         background-color: #041a63;
         color: #fff;
-        width: 200%;
+        width: 250%;
         height: 20rem;
         flex-shrink: 0;
     }
 
     .headerLogo {
-        width: 100%;
+        width: 200%;
     }
 
     .headerLogo a img {
@@ -710,7 +711,7 @@ ul.slider li:target {
 
     .container {
         margin: auto;
-        width: 200%;
+        width: 250%;
         padding: 10px;
     }
 
@@ -721,7 +722,7 @@ ul.slider li:target {
     }
 
     .centrado {
-        width: 200%;
+        width: 250%;
         text-align: center;
         font-size: .7rem;
     }

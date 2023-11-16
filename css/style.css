@@ -544,7 +544,7 @@ a.more-link {
   }
   .container {
     margin: auto;
-    width: 100%;
+    width: 150%;
     padding: 10px;
   }
   ul.slider li img {
@@ -672,19 +672,19 @@ a.more-link {
   .sectionprincipal {
     background-color: #041a63;
     color: #fff;
-    width: 200%;
+    width: 250%;
     height: 20rem;
     flex-shrink: 0;
   }
   .headerLogo {
-    width: 100%;
+    width: 200%;
   }
   .headerLogo a img {
     width: 25rem;
   }
   .container {
     margin: auto;
-    width: 200%;
+    width: 250%;
     padding: 10px;
   }
   ul.slider li img {
@@ -693,7 +693,7 @@ a.more-link {
     object-fit: contain;
   }
   .centrado {
-    width: 200%;
+    width: 250%;
     text-align: center;
     font-size: 0.7rem;
   }
