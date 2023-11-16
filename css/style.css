@@ -639,7 +639,7 @@ a.more-link {
     flex-shrink: 0;
   }
   .headerLogo {
-    width: 60%;
+    width: 100%;
   }
   .headerLogo a img {
     width: 25rem;
