@@ -677,14 +677,14 @@ a.more-link {
     flex-shrink: 0;
   }
   .headerLogo {
-    width: 40%;
+    width: 100%;
   }
   .headerLogo a img {
     width: 25rem;
   }
   .container {
     margin: auto;
-    width: 100%;
+    width: 200%;
     padding: 10px;
   }
   ul.slider li img {
@@ -693,7 +693,7 @@ a.more-link {
     object-fit: contain;
   }
   .centrado {
-    width: 100%;
+    width: 200%;
     text-align: center;
     font-size: 0.7rem;
   }
