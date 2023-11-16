@@ -3,6 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+.texto {
+    color: #000;
+    text-align: center;
+    font-family: Lao Muang Khong;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.parrafo {
+    color: #000;
+    font-family: Lao Muang Khong;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 /*header*/
 
 .sectionprincipal {
@@ -609,7 +627,16 @@ ul.slider li:target {
         .precio-col:last-child {
         margin-right:0
         }
-       
+    .texto{
+        color: #000;
+        text-align: center;
+        font-family: Lao Muang Khong;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
 }
 @media(max-width:425px) {
     .sectionprincipal {
@@ -698,5 +725,15 @@ ul.slider li:target {
         cursor: pointer;
         text-decoration: none;
         font-size: 1rem;
+    }
+    .texto{
+        color: #000;
+       text-align: center;
+       font-family: Lao Muang Khong;
+       font-size: 12px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+       text-transform: uppercase;
     }
 }
