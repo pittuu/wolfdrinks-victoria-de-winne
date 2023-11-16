@@ -553,7 +553,7 @@ a.more-link {
     object-fit: contain;
   }
   .centrado {
-    width: 150%;
+    width: 100%;
     text-align: center;
     font-size: 0.7rem;
   }
@@ -684,7 +684,7 @@ a.more-link {
   }
   .container {
     margin: auto;
-    width: 125%;
+    width: 150%;
     padding: 10px;
   }
   ul.slider li img {
@@ -693,7 +693,7 @@ a.more-link {
     object-fit: contain;
   }
   .centrado {
-    width: 125%;
+    width: 100%;
     text-align: center;
     font-size: 0.7rem;
   }
