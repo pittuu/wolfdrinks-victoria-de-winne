@@ -672,7 +672,7 @@ a.more-link {
   .sectionprincipal {
     background-color: #041a63;
     color: #fff;
-    width: 100%;
+    width: 200%;
     height: 20rem;
     flex-shrink: 0;
   }
