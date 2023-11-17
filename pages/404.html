@@ -40,9 +40,14 @@
           <span class="four"><span class="screen-reader-text" href >4</span></span>
         </section>
         <div class="d-grid gap-2 col-6 mx-auto">
-            <button class="btn btn-primary" type="button">INICIO</button>
+            <button class="btn btn-primary" type="button" onclick="redirectToIndex()">INICIO</button>
           </div>
-        <script src="bootstrap/css/bootstrap.min.js" ></script>
+        
+          <script>
+            function redirectToIndex() {
+              window.location.href = "../index.html";
+            }
+          </script>
     </main>
     <footer>
 
