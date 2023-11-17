@@ -604,7 +604,7 @@ a.more-link {
   }
   .imagennos {
     width: 100%;
-    max-width: 400px;
+    max-width: 100px;
     text-align: center;
   }
 }
@@ -673,7 +673,7 @@ a.more-link {
   }
   .imagennos {
     width: 90%;
-    max-width: 400px;
+    max-width: 100px;
     text-align: center;
   }
 }
@@ -809,7 +809,7 @@ a.more-link {
   }
   .imagennos {
     width: 60%;
-    max-width: 400px;
+    max-width: 100px;
     text-align: center;
   }
 }
@@ -941,7 +941,7 @@ a.more-link {
   /* fin suscripción */
   .imagennos {
     width: 40%;
-    max-width: 400px;
+    max-width: 100px;
     text-align: center;
   }
 }
