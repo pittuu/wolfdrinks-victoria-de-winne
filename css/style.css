@@ -602,6 +602,11 @@ a.more-link {
     font-weight: 400;
     line-height: normal;
   }
+  .imagennos {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
 }
 @media (max-width: 768px) {
   .sectionprincipal {
@@ -665,6 +670,11 @@ a.more-link {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+  }
+  .imagennos {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
   }
 }
 @media (max-width: 425px) {
@@ -797,6 +807,11 @@ a.more-link {
     color: #dd9933;
     transition: all 0.3s;
   }
+  .imagennos {
+    width: 60%;
+    max-width: 400px;
+    text-align: center;
+  }
 }
 @media (max-width: 320px) {
   .sectionprincipal {
@@ -924,6 +939,11 @@ a.more-link {
     transition: all 0.3s;
   }
   /* fin suscripción */
+  .imagennos {
+    width: 40%;
+    max-width: 400px;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
