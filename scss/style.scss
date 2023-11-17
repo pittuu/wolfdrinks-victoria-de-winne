@@ -534,10 +534,10 @@ ul.slider li:target {
     .sectionprincipal {
       background-color: #041a63;
       color: #fff;
-      width: 100%; // Cambiado de 200% a 100%
+      width: 100%;
       height: 20rem;
       flex-shrink: 0;
-      margin: 0 auto; // Centrar el elemento
+      margin: 0 auto;
     }
   
     .headerLogo {
@@ -545,21 +545,21 @@ ul.slider li:target {
     }
   
     .headerLogo a img {
-      width: 100%; // Ajustar al ancho del contenedor padre
-      max-width: 25rem; // Limitar el ancho máximo
-      margin: 0 auto; // Centrar la imagen
+      width: 100%;
+      max-width: 25rem;
+      margin: 0 auto;
     }
   
     .container {
       margin: auto;
-      width: 100%; // Ajustar al ancho del contenedor padre
-      max-width: 150%; // Limitar el ancho máximo
+      width: 125%;
+      max-width: 150%;
       padding: 10px;
     }
   
     ul.slider li img {
       width: 100%;
-      height: auto; // Permitir que la altura se ajuste proporcionalmente
+      height: auto;
       object-fit: contain;
     }
   
@@ -577,7 +577,34 @@ ul.slider li:target {
       text-decoration: none;
       font-size: 1rem;
     }
-    
+    .precio-col {
+        width:32%;
+        float:left;
+        margin-right:2%
+        }
+        
+        .precio-col:last-child {
+        margin-right:0
+        }
+    .texto{
+        color: #000;
+        text-align: center;
+        font-family: Lao Muang Khong;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .parrafo {
+        color: #000;
+        font-family: Lao Muang Khong;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
 }
 @media(max-width:768px) {
     .sectionprincipal {
@@ -694,7 +721,33 @@ ul.slider li:target {
         text-decoration: none;
         font-size: 1rem;
     }
-
+    .precio-col {
+        width:32%;
+        float:left;
+        margin-right:2%
+        }
+        
+        .precio-col:last-child {
+        margin-right:0
+        }
+    .texto{
+        color: #000;
+        text-align: center;
+        font-family: Lao Muang Khong;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .parrafo {
+        color: #000;
+        font-family: Lao Muang Khong;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
 }
 @media (max-width: 320px) {
     .sectionprincipal {
@@ -703,7 +756,7 @@ ul.slider li:target {
       width: 100%;
       height: 20rem;
       flex-shrink: 0;
-      margin: 0 auto; // Centrar el elemento
+      margin: 0 auto;
     }
   
     .headerLogo {
@@ -711,20 +764,20 @@ ul.slider li:target {
     }
   
     .headerLogo a img {
-      width: 100%; // Ajustar al ancho del contenedor padre
-      max-width: 25rem; // Limitar el ancho máximo
+      width: 100%;
+      max-width: 25rem;
     }
   
     .container {
       margin: auto;
-      width: 100%; // Ajustar al ancho del contenedor padre
-      max-width: 125%; // Limitar el ancho máximo
+      width: 100%;
+      max-width: 125%;
       padding: 10px;
     }
   
     ul.slider li img {
       width: 100%;
-      height: auto; // Permitir que la altura se ajuste proporcionalmente
+      height: auto;
       object-fit: contain;
     }
   
