@@ -394,8 +394,12 @@ ul.slider li:target {
 /*fin suscripción*/
 /*nosotros*/
 .imagennos{
-    width:100%;
+    width:80%;
+    margin: auto;
     text-align:center;
+}
+.imagennos img{
+    width:100%;
 }
 /*404*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
@@ -610,10 +614,13 @@ ul.slider li:target {
         line-height: normal;
     }
     .imagennos{
-        width:100%;
+        width:80%;
+        margin: auto;
         text-align:center;
     }
-
+    .imagennos img{
+        width:100%;
+    }
 }
 @media(max-width:768px) {
     .sectionprincipal {
@@ -686,8 +693,12 @@ ul.slider li:target {
         line-height: normal;
     }
     .imagennos{
-        width:90%;
+        width:60%;
+        margin: auto;
         text-align:center;
+    }
+    .imagennos img{
+        width:100%;
     }
 }
 @media(max-width:425px) {
@@ -842,9 +853,12 @@ ul.slider li:target {
     transition: all 0.3s;
 }
 .imagennos{
-    width:60%;
-    max-width:100px;
+    width:40%;
+    margin: auto;
     text-align:center;
+}
+.imagennos img{
+    width:100%;
 }
 }
 @media (max-width: 320px) {
@@ -998,6 +1012,10 @@ ul.slider li:target {
 /* fin suscripción */
 .imagennos{
     width:40%;
+    margin: auto;
     text-align:center;
+}
+.imagennos img{
+    width:100%;
 }
 }

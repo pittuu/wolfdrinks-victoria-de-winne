@@ -396,8 +396,13 @@ ul.slider li:target {
 /*fin suscripción*/
 /*nosotros*/
 .imagennos {
-  width: 100%;
+  width: 80%;
+  margin: auto;
   text-align: center;
+}
+
+.imagennos img {
+  width: 100%;
 }
 
 /*404*/
@@ -602,8 +607,12 @@ a.more-link {
     line-height: normal;
   }
   .imagennos {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     text-align: center;
+  }
+  .imagennos img {
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
@@ -670,8 +679,12 @@ a.more-link {
     line-height: normal;
   }
   .imagennos {
-    width: 90%;
+    width: 60%;
+    margin: auto;
     text-align: center;
+  }
+  .imagennos img {
+    width: 100%;
   }
 }
 @media (max-width: 425px) {
@@ -805,9 +818,12 @@ a.more-link {
     transition: all 0.3s;
   }
   .imagennos {
-    width: 60%;
-    max-width: 100px;
+    width: 40%;
+    margin: auto;
     text-align: center;
+  }
+  .imagennos img {
+    width: 100%;
   }
 }
 @media (max-width: 320px) {
@@ -938,7 +954,11 @@ a.more-link {
   /* fin suscripción */
   .imagennos {
     width: 40%;
+    margin: auto;
     text-align: center;
+  }
+  .imagennos img {
+    width: 100%;
   }
 }
 
